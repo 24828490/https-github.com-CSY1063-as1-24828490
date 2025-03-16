@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Contact | John Doe Portfolio</title>
+    <link rel="stylesheet" href="main.css" >
+    <link rel="stylesheet" href="responsive-lg.css" >
+    <link rel="stylesheet" href="responsive-md.css" >
+    <link rel="stylesheet" href="responsvie-sm.css" >
+  </head>
+  <body class="contact-page">
+    <header>
+      <nav class="navbar">
+        <div class="logo">JohnDoe</div>
+
+        <!-- Hamburger Menu -->
+        <input type="checkbox" id="toggle" class="toggle" >
+        <label for="toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link home-link">Home</a></li>
+          <li>
+            <a href="project.html" class="nav-link projects-link">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link contact-link">Contact</a>
+          </li>
+          <li>
+            <a href="videoDemo.html" class="nav-link video-demo-link"
+              >Video Demo</a
+            >
+          </li>
+          <li>
+            <a href="sitereport.html" class="nav-link site-report-link"
+              >Site Report</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-header">
+        <div class="container">
+          <h1 class="section-title">Get In Touch</h1>
+          <p class="section-description">
+            Have a question or want to work together? Feel free to contact me!
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-content">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h2>Contact Information</h2>
+              <div class="info-item">
+                <span class="info-label">Email:</span>
+                <span class="info-value">john.doe@example.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Phone:</span>
+                <span class="info-value">+44 123 456 7890</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location:</span>
+                <span class="info-value">Northampton, UK</span>
+              </div>
+
+              <div class="social-contact">
+                <h3>Connect With Me</h3>
+                <div class="social-icons">
+                  <a href="#" class="social-icon">GitHub</a>
+                  <a href="#" class="social-icon">LinkedIn</a>
+                  <a href="#" class="social-icon">Twitter</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h2>Send Me a Message</h2>
+              <form
+                action="mailto:john.doe@example.com"
+                method="post"
+                enctype="text/plain"
+              >
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required >
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required >
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required >
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn primary-btn">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon">GitHub</a>
+          <a href="#" class="social-icon">LinkedIn</a>
+          <a href="#" class="social-icon">Twitter</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

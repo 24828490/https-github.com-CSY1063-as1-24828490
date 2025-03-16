@@ -1,0 +1,16 @@
+
+@media (max-width: 576px) {
+    .projects-wrapper {
+      grid-template-columns: 1fr;
+    }
+  
+    .cta-buttons,
+    .video-cta {
+      flex-direction: column;
+    }
+  
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  }
+  

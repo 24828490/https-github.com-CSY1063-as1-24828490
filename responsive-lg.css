@@ -1,0 +1,30 @@
+@media (max-width: 992px) {
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    padding-right: 0;
+    margin-bottom: 3rem;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .contact-wrapper,
+  .video-wrapper,
+  .report-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .report-nav {
+    position: static;
+    margin-bottom: 2rem;
+  }
+}
